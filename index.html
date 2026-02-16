@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Tester</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Password Tester</h1>
+
+    <div class="instructions">
+        <h2>How to create a strong password (2026)</h2>
+        <p><strong>Strong passwords today focus on entropy, length, and unpredictability.</strong></p>
+
+        <ul>
+            <li>14+ characters (20+ recommended)</li>
+            <li>Use unrelated words or random characters</li>
+            <li>No personal information</li>
+            <li>No predictable patterns or substitutions</li>
+            <li>Never reuse passwords</li>
+            <li>Use a password manager when possible</li>
+        </ul>
+
+        <h3>Best approaches</h3>
+        <p><strong>Passphrase example:</strong><br>orbit-lantern-ocean-jazz</p>
+        <p><strong>Random password example:</strong><br>mQ7!Lp9#Qe2@Fs8^</p>
+
+        <h3>What makes a password strong?</h3>
+        <ul>
+            <li>Longer = stronger</li>
+            <li>Less predictable = stronger</li>
+            <li>Unique per account</li>
+        </ul>
+
+        <p class="formula">Long + Unique + Unpredictable</p>
+    </div>
+
+    <div class="password-wrapper">
+        <input type="password" id="password" placeholder="Enter your password">
+        <button type="button" id="togglePassword">Show</button>
+    </div>
+
+    <div class="bar-container">
+        <div class="bar" id="bar"></div>
+    </div>
+
+    <div id="status"></div>
+</div>
+
+<script src="static/js/script.js"></script>
+</body>
+</html>
